@@ -12,5 +12,16 @@
 }
 
 #KTEmblem {
-    
+    position: fixed;
+    width: 500px;
+    top: -25px;
+    left: -50px;
+    opacity: 0.25;
+    rotate: -10deg;
+    z-index: -1;
+}
+
+#KTLogo_sm {
+    width: 50px;
+
 }
