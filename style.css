@@ -1,0 +1,12 @@
+:root {
+    --bgColor: black; 
+
+}
+
+* {
+    background-color: var(--bgColor);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
