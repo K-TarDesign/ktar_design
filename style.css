@@ -1,5 +1,6 @@
 :root {
-    --bgColor: black; 
+    --bgColor: rgb(0,0,0);
+    --text: rgb(189, 189, 189); 
 
 }
 
@@ -9,7 +10,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #KTEmblem {
@@ -22,7 +23,18 @@
     z-index: 2;
 }
 
-#header-menu {
+#header {
     position: fixed;
+    top: 5px;
     right: 0px;
+}
+
+#header span {
+    color: var(--text);
+    padding: 3px;
+}
+
+#header span:hover {
+    color: white;
+    
 }
