@@ -6,7 +6,7 @@
 
 * {
     background-color: var(--bgColor);
-    color: white;
+    color: var(--text);
     margin: 0;
     padding: 0;
     border: 0;
@@ -27,14 +27,26 @@
     position: fixed;
     top: 5px;
     right: 0px;
+    /* Flexbox */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.5rem;
+    
 }
 
-#header span {
+#header .menu_item {
     color: var(--text);
     padding: 3px;
 }
 
-#header span:hover {
+#header .menu_item,
+#header span{
+    color: var(--text);
+    padding: 3px;
+}
+
+#header .menu_item:hover {
     color: white;
-    
+    cursor: pointer;
 }
