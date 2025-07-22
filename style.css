@@ -24,7 +24,9 @@
     z-index: 2;
 }
 
-#header {
+#header {    
+    color: var(--text);
+    padding: 3px;
     position: fixed;
     top: 5px;
     right: 0px;
@@ -33,11 +35,6 @@
     align-items: flex-end;
     justify-content: space-between;
     gap: 0.5rem;
-}
-
-#header {
-    color: var(--text);
-    padding: 3px;
 }
 
 #header .menu_item:hover {
