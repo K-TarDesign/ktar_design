@@ -1,6 +1,6 @@
 :root {
     --bgColor: rgb(0,0,0);
-    --text: rgb(189, 189, 189); 
+    --text: rgb(189, 189, 189);
 
 }
 
@@ -16,6 +16,7 @@
 #KTEmblem {
     position: fixed;
     width: 500px;
+    height: auto;
     top: -25px;
     left: -50px;
     opacity: 0.25;
@@ -34,8 +35,7 @@
     gap: 0.5rem;
 }
 
-#header .menu_item,
-#header span{
+#header {
     color: var(--text);
     padding: 3px;
 }
