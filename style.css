@@ -22,14 +22,14 @@
     opacity: 0.25;
     rotate: -10deg;
     z-index: 2;
+    transition: 1000ms 300ms;
 }
 #logo_sm {
     width: 40px;
     height: auto;
 }
 
-#header {    
-    color: var(--text);
+#header {
     padding: 3px;
     position: fixed;
     top: 5px;
@@ -39,6 +39,9 @@
     align-items: flex-end;
     justify-content: space-between;
     gap: 0.5rem;
+}
+#header .menu_item {
+    transition: 300ms color;
 }
 #header .menu_item:hover {
     color: white;
