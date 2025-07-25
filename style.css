@@ -2,6 +2,7 @@
     --bgColor: rgb(0,0,0);
     --text: rgb(189, 189, 189);
     --slate: rgb(26, 26, 26);
+    --shadow: rgb(105, 105, 105);
 
 }
 
@@ -47,6 +48,7 @@
 #header .menu_item:hover {
     color: white;
     cursor: pointer;
+    text-shadow: 15px white;
 }
 
 section {
@@ -62,4 +64,5 @@ section {
     background-color: var(--slate);
     width: 200px;
     height: 100px;
+    box-shadow: 2px 2px 20px 10px var(--shadow);
 }
