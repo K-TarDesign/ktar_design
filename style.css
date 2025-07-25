@@ -1,6 +1,7 @@
 :root {
     --bgColor: rgb(0,0,0);
     --text: rgb(189, 189, 189);
+    --slate: rgb(26, 26, 26);
 
 }
 
@@ -46,4 +47,19 @@
 #header .menu_item:hover {
     color: white;
     cursor: pointer;
+}
+
+section {
+    width: 50%;
+    position: fixed;
+    left: 500px;
+    top: 100px;
+    display: flex;
+
+}
+
+.box {
+    background-color: var(--slate);
+    width: 200px;
+    height: 100px;
 }
